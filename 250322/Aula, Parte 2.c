@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void teste() {
   char nome[32];
   printf("Digite seu nome: ");
   scanf("%s", nome);
-  printf("Voce se chama %s. Que nome bonito!\n", nome);
+  printf("Voc%c se chama %s. Que nome bonito!\n", 136, nome);
   int idade;
   printf("Digite sua idade: ");
   scanf("%d", &idade);
-  printf("Voce tem %d anos. Todos sao jovens de espirito!", idade);
+  printf("Voc%c tem %d anos. Todos s%co jovens de esp%crito!", 136, 198, 161, idade);
 }
 
 void main() {
