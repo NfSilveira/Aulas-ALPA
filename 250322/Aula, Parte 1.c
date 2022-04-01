@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 void teste() {
@@ -7,7 +8,7 @@ void teste() {
   printf("250 dividido por 25 = %g\n", 250.0 / 25.0);
   printf("20 vezes 35 = %d\n", 20 * 35);
   printf("5 ao quadrado = %g\n", pow(5,2));
-  printf("Se o seu codigo apareceu na tela sem problemas, parabens, mandou bem demais!!!\n");
+  printf("Se o seu c%cdigo apareceu na tela sem problemas, parab%cns, mandou bem demais!!!\n", 162, 130);
 }
 
 void main() {
