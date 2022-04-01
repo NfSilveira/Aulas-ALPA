@@ -1,27 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 void At1() {
   int number;
-
-  setlocale(LC_ALL, "pt-BR");
   
-  printf("Digite um número inteiro: ");
+  printf("Digite um n%cmero inteiro: ", 163);
   scanf("%d", &number);
-  printf("O número digitado multiplicado por 7 é igual a %d.\n", number * 7);
+  printf("O n%cmero digitado multiplicado por 7 %c igual a %d.\n", 163, 130, number * 7);
 }
 
 void At2() {
   double nota1, nota2;
-
-  setlocale(LC_ALL, "pt-BR");
   
   printf("Digite a primeira nota: ");
   scanf("%lf", &nota1);
   printf("Digite a segunda nota: ");
   scanf("%lf", &nota2);
-  printf("Sua média é igual a %g!\n", ((nota1 + nota2)/2));
+  printf("Sua m%cdia %c igual a %g!\n", 130, 130, ((nota1 + nota2)/2));
 }
 
 void main() {
