@@ -10,7 +10,7 @@ void teste() {
   printf("Se o seu codigo apareceu na tela sem problemas, parabens, mandou bem demais!!!\n");
 }
 
-void main() {
+int main(void) {
   teste();
 }
 
